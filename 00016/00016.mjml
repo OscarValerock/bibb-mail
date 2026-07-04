@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" color="#333333" line-height="1.7" align="justify" />
+    </mj-attributes>
+    <mj-preview>Three ways to connect Salesforce to Power BI, and the trade-offs no one tells you upfront.</mj-preview>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 30px">
+      <mj-column>
+        <mj-text font-size="34px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          Salesforce Power BI Integration: Choose the Right Approach
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor block — Metrica (external) -->
+    <mj-section background-color="#e9f5f7" padding="24px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
+          Brought to you by:
+        </mj-text>
+        <mj-text align="center" font-size="16px" font-weight="bold" color="#142328" padding-bottom="12px">
+          Metrica Power BI Connector for Salesforce
+        </mj-text>
+        <mj-text align="justify" font-size="14px" color="#142328" padding-top="4px">
+          Connect Salesforce data to Power BI without building a custom pipeline. Define your data sources inside Salesforce, let the connector handle pagination and incremental refresh, and reuse the same datasets across every report your team builds.
+        </mj-text>
+        <mj-text align="justify" font-size="14px" color="#142328">
+          Available on Salesforce AgentExchange. Initial setup can be completed in a single day.
+        </mj-text>
+        <mj-button href="https://metricasoftware.com/power-bi-connector-for-salesforce/?utm_source=bibb-newsletter&utm_medium=email&utm_campaign=N0016" align="center" background-color="#FF0020" color="#ffffff" width="200px">
+          Learn more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Oscar's Take -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px 8px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          OSCAR'S TAKE
+        </mj-text>
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/oscar-martinez.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Oscar" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Oscar Martinez</div>
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Editor, bibb Newsletter</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          Right now, I am going through a strong transition period on several fronts at once, 
+          where things are shifting faster than I can document them. In the middle of all of it, 
+          one of the things I am genuinely grateful for is the network I have built over the years. 
+          People who pick up the call, open a door, or simply show up when it matters.
+        </mj-text>
+        <mj-text>
+          <a href="https://www.linkedin.com/in/antonstorozhuk/" style="color:#FF0020;">Anton Storozhuk</a> is one of those people. 
+          We met years ago, drifted apart the way you do when careers take you in different directions, and reconnected recently. 
+          He is the Founder and CEO of <a href="https://metricasoftware.com/?utm_source=bibb-newsletter&utm_medium=email&utm_campaign=N0016" style="color:#FF0020;">Metrica Software</a>. 
+          When we first discussed bringing to bibb an article discussing Salesforce integration, for me it was a no-brainer: 
+          I have worked in and for several Salesforce-heavy organisations, so I know the integration problem he describes is 
+          real, and it hurts. And having worked with Anton before, I know the depth he brings to solving it.
+        </mj-text>
+        <mj-text>
+          If you have tried to connect Salesforce to Power BI, you know the problem. 
+          The native connector works until the data volume breaks it. 
+          A custom pipeline gives you control but also a second job.
+           Anton's guide maps the real trade-offs across three integration approaches, 
+           with enough detail to be useful the next time someone drops "can we pull this from Salesforce?" in a meeting.
+        </mj-text>
+        <mj-text>
+          Featured this week: his practical comparison guide. Bookmark it, and send it to whoever owns your Salesforce reporting setup.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="8px" padding-bottom="0">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/oscarmartinezv/" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/@bibb_pro" background-color="#FF0020" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured post card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/blog/heros/salesforce-power-bi-integration-right-approach.png" href="https://bibb.pro/post/salesforce-power-bi-integration-right-approach/?utm_source=newsletter&utm_medium=email&utm_campaign=N0016&utm_content=image-post" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          Salesforce Power BI Integration: A Practical Comparison Guide
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          Three approaches to connecting Salesforce with Power BI, compared across data volume, governance, and operational ownership. Native connectors, custom API pipelines, and the Metrica connector, each with a clear breakdown of when to use which and what it costs you long-term.
+        </mj-text>
+        <mj-button href="https://bibb.pro/post/salesforce-power-bi-integration-right-approach/?utm_source=newsletter&utm_medium=email&utm_campaign=N0016&utm_content=cta-post" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+          Go to featured post
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-bottom="10px">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/company/bibb" background-color="#0077b5" />
+        </mj-social>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb PowerPivot Digital Communities<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

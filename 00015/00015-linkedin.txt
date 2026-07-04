@@ -1,0 +1,58 @@
+When the dashboard is green and the business isn't.
+
+
+BROUGHT TO YOU BY: Claude Skills for FP&A — April 24, 2026
+
+Stop re-explaining context to AI every time you open a new chat. This 3-hour live workshop with Carolina Lago teaches you to build reusable Claude Skills for budgeting, forecasting, and variance analysis. No coding required. You leave with a working system, not a slide deck.
+
+Use code OSCAR25 at checkout for a discount.
+https://www.eventbrite.co.uk/e/claude-skills-for-financial-planning-analysis-fpa-tickets-1984866130026?aff=oscar
+
+
+---
+
+
+OSCAR'S TAKE
+KPI blind spots and your new bibb account
+
+Almost 20 years after graduating with my bachelor's, I enrolled in an MSc in Business Information Systems at FHNW this year. I am enjoying the school a lot, and one of the first things that constantly surprises me is how much of what I learned by doing already has a name in academic literature.
+
+In my Business Intelligence course, I came across the concept of formula incompleteness, which I was already very familiar with in practice. The idea is simple: a KPI is built to answer one question, and over time, that question becomes the only question anyone asks.
+
+The problem is that goals often have several dimensions, but formulas often do not. This doesn't mean the metric is wrong; it's just incomplete. Incomplete, in practice, means misleading.
+
+I have a clear example from a client engagement: they implemented a corporate-wide offshoring project, and the project's success was measured by a single metric: the offshore-to-total-headcount ratio. This felt appropriate, and most quarters, the metric was in the green.
+
+What the report did not show was the rotation rate: contractors were churning at 68% per year, and each replacement triggered a full onboarding cycle. The estimated cost was CHF 240K per year. Invisible, because nobody had built the measure. The data existed. The question had not been asked.
+
+In this week's post, I walk you through the client case and three DAX measures you can apply today.
+
+
+---
+
+
+HOW TO DESIGN BETTER KPIs BEFORE THEY MISLEAD YOU
+
+Your KPI can be accurate, on target, and still wrong. This post shows why formula incompleteness is the failure mode most dashboards never name, and how to stress-test any metric before it locks into your reporting cycle. Includes three DAX measures and a real case study.
+
+https://bibb.pro/post/how-to-design-better-kpis/
+
+
+---
+
+
+WHAT'S NEW: SIGN IN WITH A MAGIC LINK
+
+How signing in works
+
+There is a new Sign in button in the top-right corner of the site. Click it, enter your email, and that's it. Within seconds, a magic link arrives in your inbox. Click it and you're signed in. No password, no account setup, no confirmation step beyond that one click. The site remembers exactly where you were before you signed in and returns you there automatically.
+
+What signing in unlocks
+
+The first thing gated behind sign-in is the Theme Generator JSON export. Previously, downloading your generated theme required submitting your email through a separate form. That form is now replaced by your account. If you are a bibb subscriber, the export button is available as soon as you're signed in. No extra steps.
+
+Sign in at: https://bibb.pro
+
+A note on your data
+
+We updated our Privacy Policy to v2.1 alongside this release. Your email address and a session token are stored, nothing else. Your data is hosted in Zurich, Switzerland. Full policy at bibb.pro/legal/privacy-policy. Account deletion requests: contact_bibb@bibb.pro

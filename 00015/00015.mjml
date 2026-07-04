@@ -1,0 +1,200 @@
+<mjml>
+  <mj-head>
+    <mj-title>bibb Newsletter #15</mj-title>
+    <mj-preview>A term from a BPM lecture, a client dashboard green for quarters, and a KPI fix in three DAX measures. Also: bibb accounts are live.</mj-preview>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" line-height="1.7" color="#333333" align="justify" />
+      <mj-button background-color="#FF0020" color="#ffffff" border-radius="4px" font-size="14px" font-weight="bold" inner-padding="12px 28px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 30px">
+      <mj-column>
+        <mj-text font-size="34px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          When the dashboard is green and the business isn't.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor block -->
+    <mj-section background-color="#e9f5f7" padding="24px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
+          This 15th edition of the bibb newsletter is brought to you by:
+        </mj-text>
+        <mj-text align="center" font-size="16px" font-weight="bold" color="#142328" padding-bottom="12px">
+          Claude Skills for FP&amp;A - April 24, 2026
+        </mj-text>
+        <mj-image src="https://bibbstorage.blob.core.windows.net/shared/newsletter/2026_04_carolina_lago_workshop.webp" href="https://www.eventbrite.co.uk/e/claude-skills-for-financial-planning-analysis-fpa-tickets-1984866130026?aff=oscar" width="400px" padding-bottom="12px" border-radius="6px" />
+        <mj-text align="justify" font-size="14px" color="#142328" padding-top="4px">
+          Stop re-explaining context to AI every time you open a new chat. This 3-hour live workshop with <a href="https://www.linkedin.com/in/s-carolinalago/" style="color:#142328;font-weight:bold;">Carolina Lago</a> teaches you to build reusable Claude Skills for budgeting, forecasting, and variance analysis. No coding required. You leave with a working system, not a slide deck.
+        </mj-text>
+        <mj-text align="justify" font-size="14px" color="#142328">
+          Use code <strong>OSCAR25</strong> at checkout for a discount.
+        </mj-text>
+        <mj-button href="https://www.eventbrite.co.uk/e/claude-skills-for-financial-planning-analysis-fpa-tickets-1984866130026?aff=oscar" align="center" background-color="#FF0020" color="#ffffff" width="200px">
+          Get your ticket
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Oscar's personal note -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px 8px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          OSCAR'S TAKE
+        </mj-text>
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/oscar-martinez.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Oscar" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Oscar Martinez</div>
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Editor, bibb Newsletter</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          Almost 20 years after graduating with my bachelor's, I enrolled in an MSc in Business Information Systems at FHNW this year. I am enjoying the school a lot, and one of the first things that constantly surprises me is how much of what I learned by doing already has a name in academic literature.
+        </mj-text>
+        <mj-text>
+          In my Business Intelligence course, I came across the concept of formula incompleteness, which I was already very familiar with in practice. The idea is simple: a KPI is built to answer one question, and over time, that question becomes the only question anyone asks.
+        </mj-text>
+        <mj-text>
+          The problem is that goals often have several dimensions, but formulas often do not. This doesn't mean the metric is wrong; it's just incomplete. Incomplete, in practice, means misleading.
+        </mj-text>
+        <mj-text>
+          I have a clear example from a client engagement: they implemented a corporate-wide offshoring project, and the project's success was measured by a single metric: the offshore-to-total-headcount ratio. This felt appropriate, and most quarters, the metric was in the green.
+        </mj-text>
+        <mj-text>
+          What the report did not show was the rotation rate: contractors were churning at 68% per year, and each replacement triggered a full onboarding cycle. The estimated cost was CHF 240K per year. Invisible, because nobody had built the measure. The data existed. The question had not been asked.
+        </mj-text>
+        <mj-text>
+          In this week's post, I walk you through the client case and three DAX measures you can apply today.
+        </mj-text>
+        <mj-text>
+          And while you are here, bibb accounts are now live. Magic link sign-in, no password, and the Theme Generator JSON export behind your account. More on that below.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="8px" padding-bottom="0">
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/oscarvalerock/" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/@bibb_pro" background-color="#FF0020" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured post card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/blog/heros/how-to-design-better-kpis.png" href="https://bibb.pro/post/how-to-design-better-kpis/" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          How to Design Better KPIs Before They Mislead You
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          Your KPI can be accurate, on target, and still wrong. This post shows why formula incompleteness is the failure mode most dashboards never name, and how to stress-test any metric before it locks into your reporting cycle. Includes three DAX measures and a real case study.
+        </mj-text>
+        <mj-button href="https://bibb.pro/post/how-to-design-better-kpis/" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+          Go to featured post
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Auth announcement -->
+    <mj-section background-color="#ffffff" padding="24px 40px 8px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="2px">
+          What's new: Sign in with a magic link
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-text font-weight="bold" color="#142328" padding-bottom="4px">
+          How signing in works
+        </mj-text>
+        <mj-text>
+          There is a new Sign in button in the top-right corner of the site. Click it, enter your email, and that's it. Within seconds, a magic link arrives in your inbox. Click it and you're signed in. No password, no account setup, no confirmation step beyond that one click. The site remembers exactly where you were before you signed in and returns you there automatically.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-text font-weight="bold" color="#142328" padding-bottom="4px">
+          What signing in unlocks
+        </mj-text>
+        <mj-text>
+          The first thing gated behind sign-in is the Theme Generator JSON export. Previously, downloading your generated theme required submitting your email through a separate form. That form is now replaced by your account. If you are a bibb subscriber, the export button is available as soon as you're signed in. No extra steps. If your account email is not on the subscriber list yet, the user menu shows a direct link to subscribe and a refresh button to re-check your status once you have confirmed.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-text font-weight="bold" color="#142328" padding-bottom="4px">
+          A note on your data
+        </mj-text>
+        <mj-text>
+          We updated our Privacy Policy to v2.1 alongside this release. What changed: we explain what is stored when you sign in (your email address and a session token, nothing else), we disclose that your email is checked against the subscriber list to verify your access tier and that the result is cached locally for 24 hours, and we added Supabase, the authentication provider, to our list of third-party processors. Your authentication data is hosted in Zurich, Switzerland. You can request account deletion at any time by emailing <a href="mailto:contact_bibb@bibb.pro" style="color:#FF0020;">contact_bibb@bibb.pro</a>.
+        </mj-text>
+        <mj-text>
+          The full policy is at <a href="https://bibb.pro/legal/privacy-policy" style="color:#FF0020;">bibb.pro/legal/privacy-policy</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          Ready to try it? Click Sign in on bibb.pro, enter the email address you use for this newsletter, and click the magic link. Your subscription is verified automatically and the JSON export is ready.
+        </mj-text>
+        <mj-button href="https://bibb.pro" align="left" padding-top="10px" padding-bottom="6px" background-color="#142328">
+          Sign in to bibb.pro
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb PowpCo Digital Communities<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,121 @@
+<mjml>
+  <mj-head>
+    <mj-title>bibb Newsletter #14</mj-title>
+    <mj-preview>Most AI setups are wasting 80% of their context window. Aditya shows you how to fix it.</mj-preview>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" line-height="1.7" color="#333333" align="justify" />
+      <mj-button background-color="#FF0020" color="#ffffff" border-radius="4px" font-size="14px" font-weight="bold" inner-padding="12px 28px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 30px">
+      <mj-column>
+        <mj-text font-size="34px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          Most AI setups are bleeding tokens you never needed.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor / Brought to you by -->
+    <mj-section background-color="#e9f5f7" padding="24px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
+          This 14th edition of the bibb newsletter is brought to you by:
+        </mj-text>
+        <mj-button href="https://bibb.pro/apps/theme-generator/" align="center" background-color="#142328" color="#ffffff">
+          Theme Generator
+        </mj-button>
+        <mj-text align="center" font-size="15px" color="#142328" padding-top="8px">
+          #1 Power BI Theme Generator. Build beautiful, on-brand Power BI reports, no design skills needed.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Oscar's personal note -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column>
+        <mj-text>
+          I have been using Claude Code for most of my daily work: building workflows, writing, and coding. And one thing kept standing out. The more I built, the more I realised that context management was the real bottleneck. Not the model.
+        </mj-text>
+        <mj-text>
+          When <a href="https://www.linkedin.com/in/aditya-darak/" style="color:#FF0020;">Aditya</a> and I were discussing ideas for this post, the Agent Skills topic immediately grabbed my attention. I will also admit that, as editor of this blog, I had the privilege of reading his first draft before anyone else. I felt like drooling. His instructions were immediately actionable, and the way I work with LLMs has not been the same since.
+        </mj-text>
+        <mj-text>
+          <a href="https://www.linkedin.com/in/aditya-darak/" style="color:#FF0020;">Aditya</a> is a contributor I am genuinely excited to introduce to this newsletter. In <a href="https://bibb.pro/post/ai-agent-skills-token-efficiency/" style="color:#FF0020;">this post</a>, he crystallises something I had been experiencing but could not fully articulate. AI Agent Skills are not a niche developer feature. They are about building AI systems that retrieve what is relevant, instead of loading everything upfront and hoping for the best. The efficiency numbers he shows are real, and the principle applies whether you are writing M code, working with Excel models, or building any repeatable AI-assisted workflow.
+        </mj-text>
+        <mj-text>
+          I will have more to say about this as bibb.pro grows. For now, read <a href="https://bibb.pro/post/ai-agent-skills-token-efficiency/" style="color:#FF0020;">Aditya's post</a>. It is one of the clearest practical explanations of this shift I have seen.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Signature -->
+    <mj-section background-color="#ffffff" padding="0px 40px 10px">
+      <mj-column>
+        <mj-text font-size="14px" color="#333333" padding-bottom="0">
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/oscar-martinez.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Oscar" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Regards,</div>
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Oscar</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="8px" padding-bottom="0">
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/oscarvalerock/" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/@bibb_pro" background-color="#FF0020" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured post card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/blog/heros/ai-agent-skills-token-efficiency.png" href="https://bibb.pro/post/ai-agent-skills-token-efficiency" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          AI Agent Skills: Stop Paying for Tokens You Don't Need
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          Aditya breaks down how loading all your AI instructions upfront wastes 86% of your tokens — and how Agent Skills fix this with on-demand context loading. Real numbers, real examples, and a principle that applies directly not only to Excel and Power Query workflows workflows but also to general LLM usage.
+        </mj-text>
+        <mj-button href="https://bibb.pro/post/ai-agent-skills-token-efficiency" align="left" padding-top="10px" padding-bottom="6px">
+          Go to featured post
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:underline;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
