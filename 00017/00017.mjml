@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" color="#333333" line-height="1.7" align="justify" />
+    </mj-attributes>
+    <mj-preview>Sajjad Ahmadi joins bibb, brings a new tool and six button slicer tricks you probably have not seen.</mj-preview>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 30px">
+      <mj-column>
+        <mj-text font-size="34px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          New Tool: CF Icons Generator. Custom Icons Into Any Theme.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor block — new bibb CF Icons tool -->
+    <mj-section background-color="#e9f5f7" padding="24px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
+          This 17th edition of the bibb newsletter is brought to you by:
+        </mj-text>
+        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-sponsor" align="center" background-color="#142328" color="#ffffff">
+          CF Icons Generator
+        </mj-button>
+        <mj-text align="center" font-size="15px" color="#142328" padding-top="8px">
+          New from bibb. Inject custom conditional formatting icon sets into any Power BI theme, directly in your browser. No JSON editing required.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Oscar's Take -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px 8px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          OSCAR'S TAKE
+        </mj-text>
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/oscar-martinez.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Oscar" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Oscar Martinez</div>
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Editor, bibb Newsletter</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          There is a specific feeling you get when you see someone's work and immediately think: this person gets it.
+          Not just the technical part; there are many of those. But the tech is tied to the communication part.
+          The "how do I make this useful for someone who doesn't live in Power BI all day" part.
+          I got that feeling reading <a href="https://www.linkedin.com/in/sajjadahmadi" style="color:#FF0020;">Sajjad Ahmadi</a>'s work for the first time.
+        </mj-text>
+        <mj-text>
+          Sajjad is a data and information designer, Power BI expert, and one of the warmest people I have met in this space.
+          He is the kind of person who thinks about the person on the other side of the dashboard before he thinks about the measure.
+          That combination is rare, and it is exactly what bibb needs.
+        </mj-text>
+        <mj-text>
+          This edition is a proper big bang. Sajjad has accepted joining bibb's core team today, and he has not started shy:
+          first, he built the new <a href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=link-take" style="color:#FF0020;">CF Icons Generator</a>
+          (you will find it in the block above), a tool that lets you add custom conditional formatting icons to any Power BI theme
+          without touching a single line of JSON. Second, he wrote an amazing post which is a practical guide to what the Button Slicer
+          can actually do when you push past the defaults.
+        </mj-text>
+        <mj-text>
+          Three things in one newsletter. That is the kind of entrance I like. Welcome, Sajjad.
+          Read the post, try the tool, and if you are on LinkedIn, go say hello to him.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="8px" padding-bottom="0">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/oscarmartinezv/" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/@bibb_pro" background-color="#FF0020" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Introducing Sajjad block -->
+    <mj-section background-color="#ffffff" padding="30px 40px 30px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          INTRODUCING SAJJAD
+        </mj-text>
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/sajjad-ahmadi.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Sajjad" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Sajjad Ahmadi</div>
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Power BI Product Developer, bibb</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+        <mj-text>
+          Contributing to the development and evolution of bibb's Power BI platform with a focus on UX-driven Business Intelligence.
+          Helping create tools, resources, and experiences that enable the Power BI community to build more intuitive, accessible,
+          and visually effective analytics solutions.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="4px" padding-bottom="0">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/sajjadahmadi" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="github" href="https://github.com/Dashboard-Design" background-color="#333333" padding="4px" />
+          <mj-social-element name="web" href="https://www.sajjad-ahmadi.me/" background-color="#142328" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- New tool card — CF Icons Generator -->
+    <mj-section background-color="#f9f9f9" padding="24px 40px 8px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          NEW TOOL
+        </mj-text>
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          CF Icons Generator
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          Add custom conditional formatting icon sets to any Power BI theme, directly in your browser. Upload your theme, pick or upload your SVG icons, download the updated file. No JSON editing, no manual wiring. Built by Sajjad Ahmadi.
+        </mj-text>
+        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-tool" align="left" padding-top="10px" padding-bottom="16px" background-color="#142328">
+          Try the CF Icons Generator
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured post card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/blog/heros/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards.png" href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=image-post" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          6 Power BI Modern Button Slicer UI Patterns for Better Dashboards
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          Six practical UI patterns you can build today with the native Button Slicer: segmented controls, tabs, toggle buttons, icon selectors, clickable KPI cards, and image-based navigation. Each pattern comes with a downloadable PBIX file so you can apply it immediately.
+        </mj-text>
+        <mj-button href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-post" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+          Go to featured post
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-bottom="10px">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/oscarmartinezv/" background-color="#0077b5" />
+        </mj-social>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb PowerPivot Digital Communities<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
