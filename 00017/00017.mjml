@@ -65,9 +65,8 @@
       <mj-column>
         <mj-text>
           There is a specific feeling you get when you see someone's work and immediately think: this person gets it.
-          Not just the technical part; there are many of those. But the tech is tied to the communication part.
-          The "how do I make this useful for someone who doesn't live in Power BI all day" part.
-          I got that feeling reading <a href="https://www.linkedin.com/in/sajjadahmadi" style="color:#FF0020;">Sajjad Ahmadi</a>'s work for the first time.
+          Not just technically — there are plenty of people who have that. But when someone also asks "how do I make this useful for someone who doesn't live in Power BI all day?" and actually answers it with their work.
+          I got that feeling the first time I came across <a href="https://www.linkedin.com/in/sajjadahmadi" style="color:#FF0020;">Sajjad Ahmadi</a>.
         </mj-text>
         <mj-text>
           Sajjad is a data and information designer, Power BI expert, and one of the warmest people I have met in this space.
@@ -147,10 +146,11 @@
         <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
           CF Icons Generator
         </mj-text>
+        <mj-image src="https://bibbstorage.blob.core.windows.net/shared/newsletter/2026_07_CF_Icons.webp" href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=image-tool" border-radius="6px" padding-bottom="12px" />
         <mj-text font-size="14px" color="#555555">
           Add custom conditional formatting icon sets to any Power BI theme, directly in your browser. Upload your theme, pick or upload your SVG icons, download the updated file. No JSON editing, no manual wiring. Built by Sajjad Ahmadi.
         </mj-text>
-        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-tool" align="left" padding-top="10px" padding-bottom="16px" background-color="#142328">
+        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-tool" align="left" padding-top="10px" padding-bottom="16px" background-color="#FF0020">
           Try the CF Icons Generator
         </mj-button>
       </mj-column>
@@ -186,7 +186,7 @@
           <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/oscarmartinezv/" background-color="#0077b5" />
         </mj-social>
         <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
-          © 2026 bibb PowerPivot Digital Communities<br />
+          © 2026 bibb<br />
           This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
         </mj-text>
       </mj-column>
