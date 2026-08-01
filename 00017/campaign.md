@@ -67,7 +67,7 @@ Today I am introducing Sajjad Ahmadi as the newest member of the bibb core team.
 
 His first edition features two things at once: a new browser-based tool he built (CF Icons Generator, adds custom conditional formatting icons to any Power BI theme with no JSON editing) and a post on six Button Slicer UI patterns most people have never tried.
 
-Segmented controls. Tabs. Clickable KPI cards. Image-based navigation. All native. All downloadable as PBIX files.
+Segmented controls. Tabs. Toggle buttons. Clickable KPI cards. Six patterns, one native visual, some with SVG images. All downloadable as PBIX files.
 
 Welcome to the team, Sajjad. The link is in the comments.
 
