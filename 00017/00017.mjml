@@ -31,7 +31,7 @@
         <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
           This 17th edition of the bibb newsletter is brought to you by:
         </mj-text>
-        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-sponsor" align="center" background-color="#142328" color="#ffffff">
+        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/" align="center" background-color="#142328" color="#ffffff">
           CF Icons Generator
         </mj-button>
         <mj-text align="center" font-size="15px" color="#142328" padding-top="8px">
@@ -75,7 +75,7 @@
         </mj-text>
         <mj-text>
           This edition is a proper big bang. Sajjad has accepted joining bibb's core team today, and he has not started shy:
-          first, he built the new <a href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=link-take" style="color:#FF0020;">CF Icons Generator</a>
+          first, he built the new <a href="https://bibb.pro/apps/theme-generator-cf-icons/" style="color:#FF0020;">CF Icons Generator</a>
           (you will find it in the block above), a tool that lets you add custom conditional formatting icons to any Power BI theme
           without touching a single line of JSON. Second, he wrote an amazing post which is a practical guide to what the Button Slicer
           can actually do when you push past the defaults.
@@ -146,11 +146,11 @@
         <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
           CF Icons Generator
         </mj-text>
-        <mj-image src="https://bibbstorage.blob.core.windows.net/shared/newsletter/2026_07_CF_Icons.webp" href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=image-tool" border-radius="6px" padding-bottom="12px" />
+        <mj-image src="https://bibbstorage.blob.core.windows.net/shared/newsletter/2026_07_CF_Icons.webp" href="https://bibb.pro/apps/theme-generator-cf-icons/" border-radius="6px" padding-bottom="12px" />
         <mj-text font-size="14px" color="#555555">
           Add custom conditional formatting icon sets to any Power BI theme, directly in your browser. Upload your theme, pick or upload your SVG icons, download the updated file. No JSON editing, no manual wiring. Built by Sajjad Ahmadi.
         </mj-text>
-        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-tool" align="left" padding-top="10px" padding-bottom="16px" background-color="#FF0020">
+        <mj-button href="https://bibb.pro/apps/theme-generator-cf-icons/" align="left" padding-top="10px" padding-bottom="16px" background-color="#FF0020">
           Try the CF Icons Generator
         </mj-button>
       </mj-column>
@@ -166,14 +166,14 @@
     <!-- Featured post card -->
     <mj-section background-color="#ffffff" padding="24px 40px">
       <mj-column>
-        <mj-image src="https://bibb.pro/images/blog/heros/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards.png" href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=image-post" border-radius="6px" padding-bottom="16px" />
+        <mj-image src="https://bibb.pro/images/blog/heros/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards.png" href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/" border-radius="6px" padding-bottom="16px" />
         <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
           6 Power BI Modern Button Slicer UI Patterns for Better Dashboards
         </mj-text>
         <mj-text font-size="14px" color="#555555">
           Six practical UI patterns you can build today with the native Button Slicer: segmented controls, tabs, toggle buttons, icon selectors, clickable KPI cards, and image-based navigation. Each pattern comes with a downloadable PBIX file so you can apply it immediately.
         </mj-text>
-        <mj-button href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/?utm_source=newsletter&utm_medium=email&utm_campaign=N0017&utm_content=cta-post" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+        <mj-button href="https://bibb.pro/post/power-bi-button-slicer-modern-ui-patterns-for-better-dashboards/" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
           Go to featured post
         </mj-button>
       </mj-column>
