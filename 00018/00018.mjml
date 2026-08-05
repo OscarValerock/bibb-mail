@@ -1,0 +1,151 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" color="#333333" line-height="1.7" align="justify" />
+    </mj-attributes>
+    <mj-preview>A Power Query book for Excel users who never needed a data engineer. And a Git guide for BI developers who never needed a terminal.</mj-preview>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 30px">
+      <mj-column>
+        <mj-text font-size="34px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          Two Beginner Guides. Two Blind Spots. One Edition.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sponsor block — Metrica (same copy as edition 16) -->
+    <mj-section background-color="#e9f5f7" padding="24px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="15px" color="#142328" padding-bottom="8px">
+          Brought to you by:
+        </mj-text>
+        <mj-text align="center" font-size="16px" font-weight="bold" color="#142328" padding-bottom="12px">
+          Metrica Power BI Connector for Salesforce
+        </mj-text>
+        <mj-text align="justify" font-size="14px" color="#142328" padding-top="4px">
+          Connect Salesforce data to Power BI without building a custom pipeline. Define your data sources inside Salesforce, let the connector handle pagination and incremental refresh, and reuse the same datasets across every report your team builds.
+        </mj-text>
+        <mj-text align="justify" font-size="14px" color="#142328">
+          Available on Salesforce AgentExchange. Initial setup can be completed in a single day.
+        </mj-text>
+        <mj-button href="https://metricasoftware.com/power-bi-connector-for-salesforce/" align="center" background-color="#FF0020" color="#ffffff" width="200px">
+          Learn more
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Oscar's Take -->
+    <mj-section background-color="#f9f9f9" padding="30px 40px 8px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          OSCAR'S TAKE
+        </mj-text>
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td style="padding-right:14px;vertical-align:middle;">
+                <img src="https://bibb.pro/images/authors/oscar-martinez.png" width="56" height="56" style="border-radius:50%;display:block;" alt="Oscar" />
+              </td>
+              <td style="vertical-align:middle;">
+                <div style="font-size:15px;font-weight:bold;color:#142328;line-height:1.4;">Oscar Martinez</div>
+                <div style="font-size:13px;color:#888888;line-height:1.4;">Editor, bibb Newsletter</div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          "Beginner" is not one thing. You can be a finance professional with fifteen years of Excel experience and still be a Power Query beginner. You can be a Power BI developer building reports for three years and still be a Git beginner. Both of those people work in this industry. I work with them regularly.
+        </mj-text>
+        <mj-text>
+          The first group is exactly who I wrote my book for. Power Query for Excel and Business Users is for the finance analyst, the HR manager, the operations lead, the person who cleans data manually every Monday because nobody ever showed them a better way. I spent a long time in FP&A. I know this person because I was this person. The book comes out August 11 and pre-orders are open now.
+        </mj-text>
+        <mj-text>
+          The second group is who I wrote the Git post for. Power BI and Fabric are becoming development platforms. The shift from .pbix to .pbip folders means version control is no longer optional. But most BI developers I know came from business backgrounds, not software engineering. They have never needed Git before. The post is the guide I would have wanted the first time someone told me to "just use Git."
+        </mj-text>
+        <mj-text>
+          Two guides. Two starting points. Different blind spots, same underlying idea: knowing the tool removes the friction. Both are below.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-top="8px" padding-bottom="0">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/in/oscarmartinezv/" background-color="#0077b5" padding="4px" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/@bibb_pro" background-color="#FF0020" padding="4px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Book card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/book/power-query-cover.jpg" href="https://bibb.pro/book/power-query" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          Power Query for Excel and Business Users
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          A practical guide for business users, finance and operations professionals, and anyone who transforms data in Excel every week without a proper workflow. No programming background required. Launches August 11. Pre-order open now.
+        </mj-text>
+        <mj-button href="https://bibb.pro/book/power-query" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+          See the book
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Git post card -->
+    <mj-section background-color="#ffffff" padding="24px 40px">
+      <mj-column>
+        <mj-image src="https://bibb.pro/images/blog/heros/git-for-power-bi-and-fabric-users.png" href="https://bibb.pro/post/git-for-power-bi-and-fabric-users/" border-radius="6px" padding-bottom="16px" />
+        <mj-text font-size="18px" font-weight="bold" color="#142328" line-height="1.3" padding-bottom="8px">
+          Git for Power BI and Fabric Users: A Beginner's Guide
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          What Git is, how to install it on Windows, and how to use it as a BI or Fabric developer without living in a terminal. Covers VS Code setup, branching, committing, push and pull, conflict resolution, and why it matters more now that AI agents can touch your reports.
+        </mj-text>
+        <mj-button href="https://bibb.pro/post/git-for-power-bi-and-fabric-users/" align="left" padding-top="10px" padding-bottom="6px" background-color="#FF0020">
+          Read the guide
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-bottom="10px">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/company/bibb" background-color="#0077b5" />
+        </mj-social>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb PowerPivot Digital Communities<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
