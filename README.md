@@ -77,3 +77,9 @@ External links (Microsoft Learn, LinkedIn profiles, YouTube) and the Mailjet sig
 | 17 | New tool: CF Icons Generator, Sajjad Ahmadi joins bibb | bibb (CF Icons Generator) | Sent Aug 2, 2026. 36.98% open, 2.41% click. |
 | 18 | Power Query book out + Git for BI teams | Metrica Software | Sent Aug 9, 2026. 14.4% open, 0.65% click (second send in 7 days). |
 | 19 | Claude Dashboards on Fabric + Theme Generator redesign + first data story | bibb (Power Query book) | Scheduled Nov 1, 2026. First edition after a 12-week gap. |
+
+## Other mails
+
+| Folder | Purpose |
+|---|---|
+| `sunset/` | "Should we let you go?" warning to inactive subscribers. Reused every sunset cycle. Process in `BIBB-Operational/operations/01_inactive/`. |

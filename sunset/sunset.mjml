@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Arial, sans-serif" />
+      <mj-text font-size="15px" color="#333333" line-height="1.7" align="left" />
+    </mj-attributes>
+    <mj-preview>One click keeps you on the list. No click, and we remove your address in a week.</mj-preview>
+  </mj-head>
+  <mj-body background-color="#f4f4f4" width="640px">
+
+    <!-- Header banner -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://bibb.pro/images/newsletter/header.png" width="640px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#ffffff" padding="40px 40px 10px">
+      <mj-column>
+        <mj-text font-size="30px" font-weight="bold" color="#142328" line-height="1.2" align="center">
+          Should we let you go?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Body -->
+    <mj-section background-color="#ffffff" padding="10px 40px 0">
+      <mj-column>
+        <mj-text>
+          You haven't opened or clicked any of our emails in the past six months. Maybe the newsletter lands in a folder you never check. Maybe it's simply not for you anymore. Both are fine.
+        </mj-text>
+        <mj-text>
+          To keep the list healthy, we remove inactive addresses, and yours is one of them.
+        </mj-text>
+        <mj-text font-weight="bold" color="#142328" padding-bottom="0">
+          What happens next
+        </mj-text>
+        <mj-text padding-top="4px">
+          <ul style="margin:0;padding-left:20px;">
+            <li>This is the last email you get from us, unless you click below.</li>
+            <li>In 7 days, your address is removed from the bibb newsletter.</li>
+            <li>Theme generation in the app needs a subscription, so you lose access until you subscribe again.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Call to action. Any tracked click here keeps the contact (see BIBB-Operational/operations/01_inactive). -->
+    <mj-section background-color="#ffffff" padding="10px 40px 0">
+      <mj-column>
+        <mj-text font-weight="bold" color="#142328" padding-bottom="0">
+          Want to stay?
+        </mj-text>
+        <mj-text padding-top="4px">
+          One click on the button and nothing changes. Clicking any link in this email counts too.
+        </mj-text>
+        <mj-button href="https://bibb.pro/" align="left" background-color="#FF0020" color="#ffffff" padding-top="6px" padding-bottom="20px">
+          Keep me subscribed
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#ffffff" padding="0 40px">
+      <mj-column>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- What you missed. Refresh these three links every sunset cycle (latest editions). -->
+    <mj-section background-color="#ffffff" padding="24px 40px 10px">
+      <mj-column>
+        <mj-text font-size="11px" font-weight="bold" color="#FF0020" letter-spacing="2px" padding-bottom="12px">
+          IN CASE YOU MISSED IT
+        </mj-text>
+        <mj-text font-size="14px" color="#555555" padding-bottom="10px">
+          <a href="https://bibb.pro/post/claude-dashboards-microsoft-fabric-iq-mcp/" style="color:#FF0020;font-weight:bold;">Claude Dashboards on Microsoft Fabric</a><br />
+          Point Claude at a Fabric semantic model and let it build the dashboard. The setup, step by step, and the quirks we hit.
+        </mj-text>
+        <mj-text font-size="14px" color="#555555" padding-bottom="10px">
+          <a href="https://bibb.pro/apps/theme-generator/" style="color:#FF0020;font-weight:bold;">The Theme Generator, redesigned</a><br />
+          Same tool, new workspace. From a palette, an image or a short prompt to a valid Power BI theme JSON.
+        </mj-text>
+        <mj-text font-size="14px" color="#555555">
+          <a href="https://bibb.pro/post/understanding-the-grain/" style="color:#FF0020;font-weight:bold;">Understanding the Grain</a><br />
+          Our first data story. Follow one record through three aggregations and see what each one forgets.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sign-off -->
+    <mj-section background-color="#ffffff" padding="0 40px 30px">
+      <mj-column>
+        <mj-text>
+          Happy to go? Then there's nothing to do. Thanks for being part of bibb. Sad to see you leave.
+        </mj-text>
+        <mj-text>
+          Oscar
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="24px 40px 16px">
+      <mj-column>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left" padding-bottom="10px">
+          <mj-social-element src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" href="https://www.linkedin.com/company/bibb" background-color="#0077b5" />
+        </mj-social>
+        <mj-text font-size="11px" color="#aaaaaa" line-height="1.6">
+          © 2026 bibb<br />
+          This e-mail has been sent to [[EMAIL_TO]], <a href="[[UNSUB_LINK_EN]]" style="color:#aaaaaa;text-decoration:none;">click here to unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
